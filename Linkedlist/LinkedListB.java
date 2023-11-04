@@ -21,7 +21,7 @@ class linkedListPB{
      Scanner in = new Scanner(System.in);
      System.out.println("Enter 6 numbers: ");
      
-     /*for (int i = 0; i < 5; i++) {
+     for (int i = 0; i < 5; i++) {
          String strNum=in.next();
          list.insertAtFront(strNum);
     }   
@@ -45,7 +45,7 @@ class linkedListPB{
                 list.insertAtBack(numInt);
             
             data = list.getNext();
-        }*/
+        }
          
     }
 }
